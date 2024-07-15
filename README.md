@@ -17,13 +17,19 @@ Search for a keyword across Excel files in a folder
 
     Replace `.venv` with any name of your choice
 
-2. Install dependencies
+2. Activate the virtual environment
+
+    ```shell
+    source .venv/bin/activate
+    ```
+
+3. Install dependencies
 
     ```shell
     python3 -m pip install -r requirements.txt
     ```
 
-3. Run the program
+4. Run the program
 
     ```shell
     python3 app/main.py
